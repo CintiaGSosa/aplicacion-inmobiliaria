@@ -1,0 +1,54 @@
+resumen cosas encontradas
+
+Menu propiedades
+1-Cuando pasas de un propietario a otro , se ve bien, pero cuando un propietario no tiene propiedades, las listas tipo, inspector, zona y estado siguen cargadas
+2-Los campos superficie y precio admiten letras (listo)
+3-Antiguedad no se puede modificar (listo)
+4-boton modificar esta siempre activo, no verifica si hay campos vacios, (no lo consegui)
+4.1 ni pregunta si estas seguro si deseas modificar (listo)
+5-boton guargar hace lo mismo (listo verificacion)
+6-boton eliminar , hace bien la tarea, pero no te pregunta si estas seguro (listo)
+7- el text field Altura deja poner texto.
+
+deberiamos idear com activar los botones y en que momento desactivarlos (Listo)(Problema: El boton Guardar se activa solo si se empieza llenando el text de observacion, raro...)
+
+Menu Propietario
+1-Boton dni acepta letras (listo)
+2-Boton telefono acepta letras (listo)
+3- debemos asegurarnos que el usuario esta decidido a borrar o modificar..(listo)
+4- Cuando salgo el color del formulario cambia a gris. ver boton salir (listo)
+5- los text field nombre, apellido permiten numeros.
+
+MenuAlqu1leres
+1-Boton precio acepta letras(listo)
+2- los campos ID aceptan poner cosas no deberian. (listo) (los campos idpropiedad e idpropietario son deshabilitados ya que se rellenan solos cuando selec propiedad, los demas quedan habilitados)
+3- los text field Dni inquilino, dni garante, permiten texto.
+
+MenuListados
+garante
+1-Cuando buscas un garante por dni, no te informa que no existe (listo)
+2- los botones siempre estan activos.
+3- no borra los campos cuando cambio el estado del txtDni. (listo)
+4- El txtdni acepta letras (listo)
+5- Los radio buton deberian cambiar el texto de activo a inactivo (listo)
+6- los text field nombre y apellido permiten numeros.
+
+Inspector
+1- Hay un combobox, no es igual que en garante (es adrede)
+2- El idinspector, no deberia estar (listo)
+3- los botones siempre estan activos, deberiamos generar una combinacion
+4- Los radio buton deberian cambiar el texto de activo a inactivo (listo)
+5- los text field nombre y apellido permiten numeros.
+
+
+Contratos
+1- Los campos ID , estan llenos de numeros , que no identifican al usuario de que se trata, deberian tener la informacion completa (listo)
+2- los botones siempre estan activos, deberiamos generar una combinacion
+3- Los radio buton deberian cambiar el texto de activo a inactivo. (listo)
+4.-La etiqueta <No renovar> tiene que cambiar a <Renovado>, si el contrato fue renovado.
+
+inquilinos
+1- los text field nombre, apellido y lugar de trabajo permiten numeros.
+
+♦ En general agregar Type Key en los campos y habilitar y deshabilitar botones.
+
